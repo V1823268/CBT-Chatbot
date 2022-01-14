@@ -1,6 +1,7 @@
 package com.vimalnath.tab
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,9 +10,12 @@ import com.google.api.gax.core.FixedCredentialsProvider
 import com.google.auth.oauth2.GoogleCredentials
 import com.google.auth.oauth2.ServiceAccountCredentials
 import com.google.cloud.dialogflow.v2.*
+import com.google.firebase.auth.FirebaseAuth
 import com.vimalnath.tab.adapter.AgentAdapter
 import com.vimalnath.tab.model.Message
 import kotlinx.android.synthetic.main.chatbot_ui.*
+import kotlinx.android.synthetic.main.home_ui.*
+import kotlinx.android.synthetic.main.register_ui.*
 import kotlinx.coroutines.*
 import java.util.*
 
@@ -120,7 +124,10 @@ class ChatBotActivity : AppCompatActivity() {
         }
     }
 
+
 }
+
+
 
 
 

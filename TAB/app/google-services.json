@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836779575170",
+    "project_id": "tab-gauw",
+    "storage_bucket": "tab-gauw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836779575170:android:46acedfac150489862f19b",
+        "android_client_info": {
+          "package_name": "com.vimalnath.tab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836779575170-rrgdp2iig6spv6ae4g0lfejs5ndidrae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZgzX0oOfur4U8Tx4QMzPMoJhfmY1gT_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836779575170-rrgdp2iig6spv6ae4g0lfejs5ndidrae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

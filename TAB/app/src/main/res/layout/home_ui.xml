@@ -13,7 +13,7 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:id="@+id/signin"
+        android:id="@+id/home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -21,54 +21,17 @@
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="100dp"
         android:gravity="center"
-        android:text="Sign In"
+        android:text="Home"
         android:textColor="@color/white"
         android:textSize="35sp" />
 
-    <EditText
-        android:id="@+id/log_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/signin"
-        android:background="#30ffffff"
-        android:hint="Email"
-        android:textColorHint="@color/white"
-        android:textColor="@color/black"
-        android:layout_margin="10dp"
-        android:padding="20dp"
-        />
 
-    <EditText
-        android:id="@+id/log_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/log_email"
-        android:background="#30ffffff"
-        android:hint="Password"
-        android:textColorHint="@color/white"
-        android:textColor="@color/black"
-        android:layout_margin="10dp"
-        android:padding="20dp"
-        />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/signinbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/log_password"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text="Sign In" />
 
     <TextView
-        android:id="@+id/forgot_pass"
+        android:id="@+id/user_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/signinbtn"
+        android:layout_below="@id/home"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -77,16 +40,33 @@
         android:text="Forgot Password?"
         android:textColor="@color/white" />
 
-    <TextView
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chatbotBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/register"
-        android:layout_below="@id/signinbtn"
-        android:text="Sign Up"
-        android:textColor="@color/white"
+        android:layout_below="@id/user_id"
         android:layout_centerHorizontal="true"
-        android:layout_margin="60dp"
-        />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="TAB" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chatbotBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Sign Out" />
 
 
 
