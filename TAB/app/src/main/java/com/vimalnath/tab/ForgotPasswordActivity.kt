@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.actionCodeSettings
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.forgot_password_ui.*
 import kotlinx.android.synthetic.main.register_ui.*
 import kotlinx.coroutines.DelicateCoroutinesApi
@@ -33,14 +35,18 @@ class ForgotPasswordActivity : AppCompatActivity() {
                     val email: String = forgot_email.text.toString().trim { it <= ' '}
                     val actionCodeSettings = actionCodeSettings {
 
-                        url = "https://tab-gauw.firebaseapp.com/__/auth/action?mode=action&oobCode=code"
+                        url = "https://tab-gauw.firebaseapp.com/?email="
+
+                        setIOSBundleId("com.vimalnath.ios")
+
+                        setAndroidPackageName("com.vimalnath.android",true,"12")
 
                         handleCodeInApp = true
-                        setIOSBundleId("com.vimalnath.tab.ios")
-                        setAndroidPackageName("com.vimalnath.tab.android",true,"12")
+                        dynamicLinkDomain = "vimalnath.page.link"
+
                     }
 
-                FirebaseAuth.getInstance().sendSignInLinkToEmail(email, actionCodeSettings).addOnCompleteListener { task ->
+                FirebaseAuth.getInstance().sendPasswordResetEmail(email, actionCodeSettings).addOnCompleteListener { task ->
 
                     //if registration successful
                     if (task.isSuccessful) {

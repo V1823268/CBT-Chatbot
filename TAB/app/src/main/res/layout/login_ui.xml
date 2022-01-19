@@ -61,8 +61,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text="Sign In" />
+        android:text="Sign In"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"/>
 
     <TextView
         android:id="@+id/forgot_pass"
