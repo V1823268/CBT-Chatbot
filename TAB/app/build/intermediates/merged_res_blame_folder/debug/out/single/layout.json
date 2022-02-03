@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_s_o_s.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_s_o_s.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_ui.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\home_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\forgot_password_ui.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\forgot_password_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login_ui.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\login_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chatbot_ui.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\chatbot_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chat_layout.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\chat_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\register_ui.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\register_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_journal.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_journal.xml"
+    },
+    {
+        "merged": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\vimal\\Documents\\GitHub\\CBT-Chatbot\\TAB\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    }
+]

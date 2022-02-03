@@ -1,0 +1,14 @@
+com/vimalnath/tab/databinding/HomeUiBinding.java
+ com.vimalnath.tab.databinding.HomeUiBinding
+com/vimalnath/tab/BuildConfig.java
+ com.vimalnath.tab.BuildConfig
+com/vimalnath/tab/databinding/ForgotPasswordUiBinding.java
+ com.vimalnath.tab.databinding.ForgotPasswordUiBinding
+com/vimalnath/tab/databinding/RegisterUiBinding.java
+ com.vimalnath.tab.databinding.RegisterUiBinding
+com/vimalnath/tab/databinding/ChatLayoutBinding.java
+ com.vimalnath.tab.databinding.ChatLayoutBinding
+com/vimalnath/tab/databinding/ChatbotUiBinding.java
+ com.vimalnath.tab.databinding.ChatbotUiBinding
+com/vimalnath/tab/databinding/LoginUiBinding.java
+ com.vimalnath.tab.databinding.LoginUiBinding

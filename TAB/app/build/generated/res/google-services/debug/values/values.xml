@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">836779575170-rrgdp2iig6spv6ae4g0lfejs5ndidrae.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">836779575170</string>
+    <string name="google_api_key" translatable="false">AIzaSyAZgzX0oOfur4U8Tx4QMzPMoJhfmY1gT_w</string>
+    <string name="google_app_id" translatable="false">1:836779575170:android:46acedfac150489862f19b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAZgzX0oOfur4U8Tx4QMzPMoJhfmY1gT_w</string>
+    <string name="google_storage_bucket" translatable="false">tab-gauw.appspot.com</string>
+    <string name="project_id" translatable="false">tab-gauw</string>
+</resources>
